@@ -36,8 +36,8 @@
                     <td><?php echo $no++;//number plus looping ?></td>
                     <td><?php echo $show["nama"]; ?></td>
                     <td><?php echo $show["umur"]; ?></td>
-                    <td><a href="edit.php?<?php echo $show["id"]; ?>">edit</a></td>
-                    <td><a href="delete.php?<?php echo $show["id"]; ?>">delete</a></td>
+                    <td><a href="edit.php?id=<?php echo $show["id"]; ?>">edit</a></td>
+                    <td><a href="delete.php?id=<?php echo $show["id"]; ?>">delete</a></td>
                 </tr>
         <?php
             }
